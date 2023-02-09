@@ -30,7 +30,7 @@ let generateexcuse = () => {
   let randQue = que[Math.floor(Math.random() * que.length)];
 
   //Creamos la frase
-
+  //un comentario
   let frase = randQuien + randComo + randQue;
   return frase;
 };
